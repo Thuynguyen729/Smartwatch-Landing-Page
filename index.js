@@ -24,62 +24,62 @@ window.addEventListener("click", function (e) {
 
 // Testtimonials Section
 
-const testimonials = [
-  {
-    name: "Kim Wexler",
-    job: "Chief Executive Officer",
-    image: "Image/Person1.png",
-    testimonial:
-      "Needless to say we are extremely satisfied with the results. Man, this thing is getting better and better as I learn more about it. This app has really helped to improve my productivity.",
-  },
+// const testimonials = [
+//   {
+//     name: "Kim Wexler",
+//     job: "Chief Executive Officer",
+//     image: "Image/Person1.png",
+//     testimonial:
+//       "Needless to say we are extremely satisfied with the results. Man, this thing is getting better and better as I learn more about it. This app has really helped to improve my productivity.",
+//   },
 
-  {
-    name: "Walter White",
-    job: "CEO sales department",
-    image: "Image/Person2.png",
-    testimonial:
-      "We've used smartwatch app for a while. Smartwatch app has got everything I need. I will let my mum know about this, she could really make use of smartwatch app!",
-  },
-  {
-    name: "Jame McGill",
-    job: "creative developer",
-    image: "Image/Person3.png",
-    testimonial:
-      "Smartwatch app is a user friendly app, and it helps me a lot in tracking my activities. I am very sastified choosing this Smartwatch and I will recommend it to my friends",
-  },
-]
+//   {
+//     name: "Walter White",
+//     job: "CEO sales department",
+//     image: "Image/Person2.png",
+//     testimonial:
+//       "We've used smartwatch app for a while. Smartwatch app has got everything I need. I will let my mum know about this, she could really make use of smartwatch app!",
+//   },
+//   {
+//     name: "Jame McGill",
+//     job: "creative developer",
+//     image: "Image/Person3.png",
+//     testimonial:
+//       "Smartwatch app is a user friendly app, and it helps me a lot in tracking my activities. I am very sastified choosing this Smartwatch and I will recommend it to my friends",
+//   },
+// ]
 
-let i = 0
-let j = testimonials.length
+// let i = 0
+// let j = testimonials.length
 
-let testimonialSlider = document.getElementById("slider")
-let nextBtn = document.getElementById("next")
-let prevBtn = document.getElementById("prev")
+// let testimonialSlider = document.getElementById("slider")
+// let nextBtn = document.getElementById("next")
+// let prevBtn = document.getElementById("prev")
 
-nextBtn.addEventListener("click", function (e) {
-  i = (j + i + 1) % j
-  displayTestimonial()
-})
+// nextBtn.addEventListener("click", function (e) {
+//   i = (j + i + 1) % j
+//   displayTestimonial()
+// })
 
-prevBtn.addEventListener("click", function (e) {
-  i = (j + i - 1) % j
-  displayTestimonial()
-})
+// prevBtn.addEventListener("click", function (e) {
+//   i = (j + i - 1) % j
+//   displayTestimonial()
+// })
 
-let displayTestimonial = () => {
-  testimonialSlider.innerHTML = `
-  <div><img src=${testimonials[i].image} /></div>
-  <div class="text">
-    <p class="comment">${testimonials[i].testimonial}</p>
-    <section>
-      <h6>${testimonials[i].name}</h6>
-      <p>${testimonials[i].job}</p>
-    </section>
-  </div>
-  `
-}
+// let displayTestimonial = () => {
+//   testimonialSlider.innerHTML = `
+//   <div><img src=${testimonials[i].image} /></div>
+//   <div class="text">
+//     <p class="comment">${testimonials[i].testimonial}</p>
+//     <section>
+//       <h6>${testimonials[i].name}</h6>
+//       <p>${testimonials[i].job}</p>
+//     </section>
+//   </div>
+//   `
+// }
 
-window.onload = displayTestimonial
+// window.onload = displayTestimonial
 
 // ----------------------------------------------> carousel ----------------------------------------------
 

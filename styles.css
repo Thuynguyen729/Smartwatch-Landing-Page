@@ -602,6 +602,7 @@
   max-width: 557px;
   font-size: 1.6rem;
   line-height: 2.4rem;
+  margin: 0 auto;
 }
 
 .subscribe .email {
@@ -648,7 +649,7 @@
   background-color: #2186eb;
   padding: 16px;
   width: 184px;
-  height: 47px;
+  height: 50px;
   border-radius: 24px;
   border: none;
   text-transform: uppercase;
@@ -660,6 +661,7 @@
   top: 50%;
   transform: translate(0, -50%);
   cursor: pointer;
+  display: inline-block;
 }
 
 .social li {
@@ -1057,7 +1059,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1170px;
   margin: auto 40px;
 }
 
@@ -1089,7 +1090,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1170px;
   margin: auto 40px;
   padding-bottom: 10px;
 }
